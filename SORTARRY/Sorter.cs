@@ -12,7 +12,7 @@
             for (int i = 0; i < array.Length - 1; i++)
                 for (int j = i + 1; j < array.Length; j++)
 
-                    // check if preceding value is greater than current value in the array
+                    // check if preceding value is lesser than current value in the array
                     if (array[i] < array[j])
                     {
 
